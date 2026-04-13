@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+:root {
+    --bg-color: #f8fafc;
+    --text-primary: #0f172a;
+    --text-secondary: #334155;
+    --accent: #0284c7;
+    --card-bg: #ffffff;
+    --card-border: #cbd5e1;
+    --cert-bg: #ffffff;
+    --cert-border: #d97706;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    line-height: 1.4;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.cv-container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* allthe sections */
+.top-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.middle-section {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+}
+
+.middle-left, .middle-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+}
+
+.bottom-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* div card stylings */
+.header, .professional-summary, .skills, .education, .certifications-list, .projects {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 6px;
+    padding: 12px;
+}
+
+/* header stuffs */
+.header {
+    text-align: center;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 4px;
+}
+
+.title {
+    font-size: 14px;
+    color: var(--accent);
+    font-weight: 600;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 6px;
+    color: var(--text-secondary);
+    font-size: 10px;
+}
+
+.professional-summary p {
+    font-size: 11px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+h3 {
+    font-size: 12px;
+    margin-bottom: 8px;
+    color: #0f172a;
+    font-weight: 700;
+    border-bottom: 1px solid var(--card-border);
+    padding-bottom: 4px;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 11px;
+    color: var(--text-primary);
+    margin-bottom: 2px;
+}
+
+/* all skills */
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.skill-tag {
+    background: #f1f5f9;
+    color: var(--text-primary);
+    padding: 4px 6px;
+    border-radius: 4px;
+    font-size: 9px;
+    border: 1px solid #e2e8f0;
+}
+
+/* info Block */
+.institution, .org {
+    color: var(--text-secondary);
+    font-size: 10px;
+    margin-bottom: 2px;
+}
+
+.period {
+    color: var(--accent);
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.status {
+    background: #fef3c7;
+    color: #b45309;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-size: 8px;
+    margin-left: 4px;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 12px;
+    margin-top: 4px;
+}
+
+/* Cert styling */
+.certificate {
+    background: var(--cert-bg);
+    border: 1px solid var(--cert-border);
+    border-radius: 6px;
+    padding: 20px 12px 12px 12px; /* Extra top padding for logo space */
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.certificate::before {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    right: 4px;
+    bottom: 4px;
+    border: 1px dashed rgba(217, 119, 6, 0.4);
+    border-radius: 4px;
+    pointer-events: none;
+}
+
+.cert-logo {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--cert-border);
+    border: 1px solid var(--cert-border);
+    border-radius: 3px;
+    display: inline-block;
+    padding: 1px 6px;
+    font-family: 'Georgia', serif;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.cert-header {
+    margin-bottom: 6px;
+}
+
+.cert-title {
+    font-size: 14px;
+    color: var(--cert-border);
+    font-weight: 700;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+}
+
+.cert-subtitle {
+    font-size: 10px;
+    color: var(--text-secondary);
+    font-style: italic;
+    margin-bottom: 4px;
+}
+
+.cert-recipient {
+    font-size: 20px;
+    color: var(--text-primary);
+    font-family: 'Great Vibes', cursive, 'Georgia', serif;
+    border-bottom: 1px solid var(--cert-border);
+    display: inline-block;
+    padding-bottom: 2px;
+    margin-bottom: 4px;
+}
+
+.cert-body {
+    margin-bottom: 8px;
+}
+
+.cert-details {
+    color: var(--text-secondary);
+    font-size: 10px;
+    margin: 4px 0;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.cert-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 0 10px;
+    margin-top: 10px;
+}
+
+.seal {
+    width: 36px;
+    height: 36px;
+    background: #fbbf24;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    border: 2px dashed #b45309;
+    z-index: 2;
+    margin-bottom: 4px;
+}
+
+.issuer {
+    text-align: center;
+}
+
+.sign {
+    font-family: 'Great Vibes', cursive;
+    font-size: 14px;
+    color: var(--text-primary);
+    border-bottom: 1px solid #cbd5e1;
+    padding: 0 4px 2px 4px;
+    margin-bottom: 2px;
+}
+
+.issuer-name {
+    font-weight: 600;
+    color: var(--text-primary);
+    font-size: 9px;
+    margin-bottom: 1px;
+}
+
+.issuer-role {
+    color: var(--text-secondary);
+    font-size: 8px;
+}

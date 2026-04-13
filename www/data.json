@@ -1,0 +1,69 @@
+{
+  "personal_info": {
+    "full_name": "Joshua Owolabi",
+    "title": "Junior Web Developer",
+    "email": "owolabijoshui2@gmail.com",
+    "phone": "+234 703 290 5404",
+    "location": "Lagos, Nigeria"
+  },
+  "professional_summary": "Motivated and detail-oriented Junior Web Developer with strong skills in HTML, CSS, JavaScript, and React.js. Passionate about building responsive, user-friendly web applications that deliver excellent user experiences. Adept at problem-solving, debugging, and writing clean, maintainable code. Committed to continuous learning and contributing effectively to dynamic development teams.",
+  "technical_skills": [
+    "HTML5",
+    "CSS3",
+    "JavaScript (ES6+)",
+    "React.js",
+    "Responsive Web Design",
+    "Version Control (Git)",
+    "Basic UI/UX Principles"
+  ],
+  "experience": [
+    {
+      "type": "certificate",
+      "title": "Certificate of Participation",
+      "recipient": "Joshua Owolabi",
+      "program": "Flexisaf Internship Program (FIP)",
+      "cohort": "September to December 2025",
+      "details": "For your participation and achievements in Flexisaf Internship Program (FIP) during the September to December2025 chohor -Frontend Developmet Pathway. Your passion for learning and working did not go unnoticed and we hope it inspires you to make a lifr-long positive impact!",
+      "pathway": "Frontend Development Pathway",
+      "issuers": [
+        {
+          "name": "Michael Okoronu",
+          "role": "Program Support Officer"
+        },
+        {
+          "name": "Faiz Bashir",
+          "role": "CEO"
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Safety & Accident Prevention Alert App",
+      "type": "Mobile Application",
+      "technologies": [
+        "Apache Cordova",
+        "HTML/CSS/JS"
+      ],
+      "description": "Developed a cross-platform mobile application using Cordova to help with real-time incident reporting and safety alerts."
+    }
+  ],
+  "education": {
+    "degree": "Bachelor of Engineering (B.Eng) – Mechatronics Engineering",
+    "status": "In Progress",
+    "period": "2023 – 2027",
+    "institution": "Federal University Oye Ekiti, Nigeria"
+  },
+  "certifications": [
+    {
+      "name": "Frontend Development Internship Certificate",
+      "organization": "Flexisaf Internship Program (FIP)",
+      "period": "Sept – Dec 2025",
+      "achievements": [
+        "Successfully completed structured frontend engineering training",
+        "Built responsive and user-friendly web interfaces",
+        "Collaborated in code reviews and agile-style team tasks"
+      ]
+    }
+  ]
+}
