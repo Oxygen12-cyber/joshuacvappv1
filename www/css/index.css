@@ -32,10 +32,13 @@ body {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 10px;
+    min-height: calc(100vh - 80px); 
+    padding-top: 10vh; 
 }
 
-/* allthe sections */
+
 .top-section {
     display: flex;
     flex-direction: column;
@@ -64,7 +67,7 @@ body {
     gap: 10px;
 }
 
-/* div card stylings */
+
 .header, .professional-summary, .skills, .education, .certifications-list, .projects {
     background: var(--card-bg);
     border: 1px solid var(--card-border);
@@ -72,7 +75,7 @@ body {
     padding: 12px;
 }
 
-/* header stuffs */
+
 .header {
     text-align: center;
 }
@@ -123,7 +126,7 @@ h4 {
     margin-bottom: 2px;
 }
 
-/* all skills */
+
 .skills-list {
     display: flex;
     flex-wrap: wrap;
@@ -139,7 +142,7 @@ h4 {
     border: 1px solid #e2e8f0;
 }
 
-/* info Block */
+
 .institution, .org {
     color: var(--text-secondary);
     font-size: 10px;
@@ -168,12 +171,12 @@ ul {
     margin-top: 4px;
 }
 
-/* Cert styling */
+
 .certificate {
     background: var(--cert-bg);
     border: 1px solid var(--cert-border);
     border-radius: 6px;
-    padding: 20px 12px 12px 12px; /* Extra top padding for logo space */
+    padding: 20px 12px 12px 12px; 
     text-align: center;
     position: relative;
     display: flex;
@@ -295,3 +298,46 @@ ul {
     color: var(--text-secondary);
     font-size: 8px;
 }
+
+
+.cv-container {
+    padding-bottom: 60px; 
+}
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: var(--card-bg);
+    border-top: 1px solid var(--card-border);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    z-index: 1000;
+}
+.bottom-nav a {
+    text-decoration: none;
+    color: var(--text-secondary);
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+.bottom-nav a.active {
+    color: var(--accent);
+    font-weight: 700;
+}
+.bottom-nav a .icon {
+    font-size: 18px;
+}
+.full-width-card {
+    width: 100%;
+}
+.languages, .hobbies, .development-tools, .volunteer {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 6px;
+    padding: 12px;
+}
+

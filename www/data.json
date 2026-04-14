@@ -48,6 +48,37 @@
       "description": "Developed a cross-platform mobile application using Cordova to help with real-time incident reporting and safety alerts."
     }
   ],
+  "soft_skills": [
+    "Problem Solving",
+    "Team Leadership",
+    "Agile Development",
+    "Effective Communication"
+  ],
+  "tools": [
+    "VS Code",
+    "Figma",
+    "Android Studio",
+    "Postman",
+    "Webpack"
+  ],
+  "hobbies": [
+    "Open Source Contribution",
+    "Robotics Projects",
+    "Reading Tech Blogs",
+    "UI/UX Exploring"
+  ],
+  "volunteer": [
+    {
+      "role": "Technical Mentor",
+      "organization": "Local Tech Bootcamp",
+      "period": "2024 - Present",
+      "description": "Assisted junior developers in learning HTML, CSS, and basic JavaScript concepts."
+    }
+  ],
+  "languages": [
+    {"name": "English", "proficiency": "Fluent"},
+    {"name": "Yoruba", "proficiency": "Native"}
+  ],
   "education": {
     "degree": "Bachelor of Engineering (B.Eng) – Mechatronics Engineering",
     "status": "In Progress",
